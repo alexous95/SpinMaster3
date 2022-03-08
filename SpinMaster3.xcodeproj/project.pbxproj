@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C5CB03227CE81E70004127E /* SpinMaster3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5CB03127CE81E70004127E /* SpinMaster3App.swift */; };
-		6C5CB03427CE81E70004127E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5CB03327CE81E70004127E /* ContentView.swift */; };
 		6C5CB03627CE81E90004127E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5CB03527CE81E90004127E /* Assets.xcassets */; };
 		6C5CB03927CE81E90004127E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5CB03827CE81E90004127E /* Preview Assets.xcassets */; };
+		6C5CB04127CE82390004127E /* GameLevelPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5CB04027CE82390004127E /* GameLevelPresenter.swift */; };
+		6C5CB04327CE82740004127E /* GameLevelInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5CB04227CE82740004127E /* GameLevelInteractor.swift */; };
+		6C5CB04527CE82BF0004127E /* GameLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5CB04427CE82BE0004127E /* GameLevelView.swift */; };
+		6C5CB04727CE83C70004127E /* GameLevelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5CB04627CE83C70004127E /* GameLevelEntity.swift */; };
+		6C64C2C127CFCC3C00D8484D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C64C2C027CFCC3C00D8484D /* AppDelegate.swift */; };
+		6C64C2C327CFCC8800D8484D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C64C2C227CFCC8800D8484D /* SceneDelegate.swift */; };
+		6C64C2C727CFD17B00D8484D /* GameLevelRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C64C2C627CFD17B00D8484D /* GameLevelRouter.swift */; };
+		6C99D44427D25CCB002D7929 /* SecondScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C99D44327D25CCB002D7929 /* SecondScreenView.swift */; };
+		6C99D44627D25CE3002D7929 /* SecondScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C99D44527D25CE3002D7929 /* SecondScreenInteractor.swift */; };
+		6C99D44827D25CF4002D7929 /* SecondScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C99D44727D25CF4002D7929 /* SecondScreenPresenter.swift */; };
+		6C99D44A27D25D0B002D7929 /* SecondScreenEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C99D44927D25D0B002D7929 /* SecondScreenEntity.swift */; };
+		6C99D44C27D25D1B002D7929 /* SecondScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C99D44B27D25D1B002D7929 /* SecondScreenRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6C5CB02E27CE81E70004127E /* SpinMaster3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinMaster3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C5CB03127CE81E70004127E /* SpinMaster3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinMaster3App.swift; sourceTree = "<group>"; };
-		6C5CB03327CE81E70004127E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6C5CB03527CE81E90004127E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C5CB03827CE81E90004127E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C5CB04027CE82390004127E /* GameLevelPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelPresenter.swift; sourceTree = "<group>"; };
+		6C5CB04227CE82740004127E /* GameLevelInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelInteractor.swift; sourceTree = "<group>"; };
+		6C5CB04427CE82BE0004127E /* GameLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelView.swift; sourceTree = "<group>"; };
+		6C5CB04627CE83C70004127E /* GameLevelEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelEntity.swift; sourceTree = "<group>"; };
+		6C64C2C027CFCC3C00D8484D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C64C2C227CFCC8800D8484D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C64C2C627CFD17B00D8484D /* GameLevelRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelRouter.swift; sourceTree = "<group>"; };
+		6C64C2C827CFD41300D8484D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6C99D44327D25CCB002D7929 /* SecondScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenView.swift; sourceTree = "<group>"; };
+		6C99D44527D25CE3002D7929 /* SecondScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenInteractor.swift; sourceTree = "<group>"; };
+		6C99D44727D25CF4002D7929 /* SecondScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenPresenter.swift; sourceTree = "<group>"; };
+		6C99D44927D25D0B002D7929 /* SecondScreenEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenEntity.swift; sourceTree = "<group>"; };
+		6C99D44B27D25D1B002D7929 /* SecondScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenRouter.swift; sourceTree = "<group>"; };
+		6C99D44D27D266F0002D7929 /* SpinMaster3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpinMaster3.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +73,12 @@
 		6C5CB03027CE81E70004127E /* SpinMaster3 */ = {
 			isa = PBXGroup;
 			children = (
-				6C5CB03127CE81E70004127E /* SpinMaster3App.swift */,
-				6C5CB03327CE81E70004127E /* ContentView.swift */,
+				6C99D44D27D266F0002D7929 /* SpinMaster3.entitlements */,
+				6C64C2C827CFD41300D8484D /* Info.plist */,
+				6C64C2C027CFCC3C00D8484D /* AppDelegate.swift */,
+				6C64C2C227CFCC8800D8484D /* SceneDelegate.swift */,
+				6C5CB03F27CE82110004127E /* GameLevelModule */,
+				6C99D44227D25CA9002D7929 /* SecondScreenModule */,
 				6C5CB03527CE81E90004127E /* Assets.xcassets */,
 				6C5CB03727CE81E90004127E /* Preview Content */,
 			);
@@ -65,6 +91,30 @@
 				6C5CB03827CE81E90004127E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C5CB03F27CE82110004127E /* GameLevelModule */ = {
+			isa = PBXGroup;
+			children = (
+				6C5CB04427CE82BE0004127E /* GameLevelView.swift */,
+				6C5CB04227CE82740004127E /* GameLevelInteractor.swift */,
+				6C5CB04027CE82390004127E /* GameLevelPresenter.swift */,
+				6C5CB04627CE83C70004127E /* GameLevelEntity.swift */,
+				6C64C2C627CFD17B00D8484D /* GameLevelRouter.swift */,
+			);
+			path = GameLevelModule;
+			sourceTree = "<group>";
+		};
+		6C99D44227D25CA9002D7929 /* SecondScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				6C99D44327D25CCB002D7929 /* SecondScreenView.swift */,
+				6C99D44527D25CE3002D7929 /* SecondScreenInteractor.swift */,
+				6C99D44727D25CF4002D7929 /* SecondScreenPresenter.swift */,
+				6C99D44927D25D0B002D7929 /* SecondScreenEntity.swift */,
+				6C99D44B27D25D1B002D7929 /* SecondScreenRouter.swift */,
+			);
+			path = SecondScreenModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +187,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C5CB03427CE81E70004127E /* ContentView.swift in Sources */,
-				6C5CB03227CE81E70004127E /* SpinMaster3App.swift in Sources */,
+				6C99D44C27D25D1B002D7929 /* SecondScreenRouter.swift in Sources */,
+				6C99D44A27D25D0B002D7929 /* SecondScreenEntity.swift in Sources */,
+				6C99D44827D25CF4002D7929 /* SecondScreenPresenter.swift in Sources */,
+				6C99D44427D25CCB002D7929 /* SecondScreenView.swift in Sources */,
+				6C5CB04127CE82390004127E /* GameLevelPresenter.swift in Sources */,
+				6C64C2C727CFD17B00D8484D /* GameLevelRouter.swift in Sources */,
+				6C5CB04327CE82740004127E /* GameLevelInteractor.swift in Sources */,
+				6C99D44627D25CE3002D7929 /* SecondScreenInteractor.swift in Sources */,
+				6C64C2C127CFCC3C00D8484D /* AppDelegate.swift in Sources */,
+				6C5CB04527CE82BF0004127E /* GameLevelView.swift in Sources */,
+				6C5CB04727CE83C70004127E /* GameLevelEntity.swift in Sources */,
+				6C64C2C327CFCC8800D8484D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,13 +326,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpinMaster3/SpinMaster3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpinMaster3/Preview Content\"";
 				DEVELOPMENT_TEAM = 287US8GP6G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SpinMaster3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -284,6 +345,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.SpinMaster3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,13 +357,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpinMaster3/SpinMaster3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpinMaster3/Preview Content\"";
 				DEVELOPMENT_TEAM = 287US8GP6G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SpinMaster3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -313,6 +376,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.SpinMaster3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
