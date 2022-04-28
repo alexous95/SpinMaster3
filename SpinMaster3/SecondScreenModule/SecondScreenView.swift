@@ -10,20 +10,35 @@ import SwiftUI
 struct SecondScreenView: View {
     @ObservedObject var presenter: SecondScreenPresenter
 
-    var body: some View {
-        VStack{
-            Text("Hello, World! 2")
+    init() {
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        UINavigationBar.appearance().shadowImage = UIImage()
+    }
 
-            Button {
-                presenter.popToSuperView()
-            } label: {
-                Text("Pop to superview")
-                    .padding(.all, 20)
-                    .clipShape(Capsule())
-                    .overlay(Capsule().stroke(lineWidth: 2))
+    var body: some View {
+        NavigationView {
+            ZStack {
+                LinearGradient(colors: [.red, .black],
+                               startPoint: .topLeading,
+                               endPoint: .bottomTrailing)
+                VStack{
+                    Text("Hello, World! 2")
+                        .foregroundColor(.white)
+
+                    Spacer()
+
+                    Button {
+                        presenter.popToSuperView()
+                    } label: {
+                        Text("Pop to superview")
+                            .padding(.all, 20)
+                            .clipShape(Capsule())
+                            .overlay(Capsule().stroke(lineWidth: 2))
+                    }
+                }
+                .navigationBarTitle("Test", displayMode: .automatic)
             }
         }
-
     }
 }
 

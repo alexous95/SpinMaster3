@@ -36,6 +36,7 @@ extension GameLevelRouter: GameLevelRouterProtocol {
         let nextController = UIHostingController(rootView: nextView)
         nextRouter.navigationController = navigationController
         navigationController?.pushViewController(nextController, animated: true)
+        navigationController?.navigationBar.isHidden = true
     }
 
 }
